@@ -1,0 +1,11 @@
+name: AutoJarReloader
+version: '1.0'
+main: fr.supermax_8.autojarreloader.AutoJarReloader
+api-version: '1.18'
+authors: [ SuperMax_8 ]
+description: This plugin detects jar changes in plugins and reloads with plugmanX the plugins, useful for dev
+depend: [ PlugManX ]
+commands:
+  autojarreload:
+    aliases: [ ajr ]
+    permission: autojarreload
