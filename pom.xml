@@ -6,7 +6,7 @@
 
     <groupId>fr.supermax_8</groupId>
     <artifactId>autojarreloader</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>autojarreloader</name>

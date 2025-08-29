@@ -1,5 +1,5 @@
 name: AutoJarReloader
-version: '1.0'
+version: '${project.version}'
 main: fr.supermax_8.autojarreloader.AutoJarReloader
 api-version: '1.18'
 authors: [ SuperMax_8 ]

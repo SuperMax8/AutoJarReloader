@@ -62,6 +62,7 @@ public class JarReloader {
             AutoJarReloader.log("Detected change in " + pluginJar.getName() + ", reloading...");
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "plugman reload " + pluginName);
             lastReload = System.currentTimeMillis();
+            lastModified = pluginJar.lastModified();
             state = State.TICKING;
         }, 3);
     }
