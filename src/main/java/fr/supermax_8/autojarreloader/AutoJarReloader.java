@@ -26,6 +26,7 @@ public final class AutoJarReloader extends JavaPlugin {
             }
         }, 0, 0);
         getCommand("autojarreload").setExecutor(new AutoJarReloadCommand());
+        new Metrics(this, 27081);
     }
 
     public void loadPl() {
